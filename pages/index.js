@@ -5,10 +5,9 @@ import Layout from './components/layout'
 
 
 export default function Home() {
-
   return (
     <div className={styles.container}>
-      <Layout titolo="si">
+      <Layout titolo="yey">
       </Layout>
     </div>
   )
