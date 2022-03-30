@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --main-color: rgb(102, 255, 153);
+  --transparent: #ffffff00;
+  --side-color: rgb(196, 255, 102);
 }
 
 a {
@@ -13,4 +16,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+Heading {
+  background-color: var(--main-color);
+  width: flex;
+  height: flex;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Josefin Sans", sans-serif;
 }
