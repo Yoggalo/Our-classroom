@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Layout(props) {
   return (
     <div className={styles.heading}>
-    
+  <h1>ciao</h1>    
       <h1 className={styles.h1}>{props.titolo}</h1>
       <ul className={styles.navbar}>
         <ul className={styles.navbarItem}>Materiali
