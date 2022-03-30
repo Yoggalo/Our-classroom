@@ -45,6 +45,3 @@ export default function Layout(props) {
 
 
 
-ourclassroom/pages/components/layout.js
-ourclassroom/pages/components
-/Users/stellutialessio/Our classroom/ourclassroom/pages/components/layout.js
