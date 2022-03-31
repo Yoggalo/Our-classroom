@@ -31,7 +31,7 @@
 }
 
 .mainSection {
-  background-color: #9af3cf;
+  background-color: whitesmoke;
   float: left;
   width: 49.5vw; /* vw è un'unità di misura della larghezza della finestra, 50vw è il 50% */
   margin: 2px;
@@ -40,10 +40,13 @@
 
 .mainSectionTitle {
   font-size: 22px;
+  color: black;
+  margin-left: 3px;
 }
 
 .mainSectionPart {
   border-bottom: 1px solid #3366ff;
+  margin: 2px;
 }
 
 .heading > .h1 {
