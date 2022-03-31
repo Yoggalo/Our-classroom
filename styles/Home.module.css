@@ -21,6 +21,30 @@
   border-radius: 10px 10px 10px 10px;
 }
 
+.mainTitle{
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(to left, #3366ff 32%, #00ff99 68%);
+  background-clip: text;
+  color: transparent;
+}
+
+.mainSection{
+  background-color: #9af3cf;
+  float: left;
+  width: 49.5vw; /* vw è un'unità di misura della larghezza della finestra, 50vw è il 50% */
+  margin: 2px;
+  border: double #3366ff;
+}
+
+.mainSectionTitle{
+  font-size: 22px;
+}
+
+.mainSectionPart{
+  border-bottom: 1px solid #3366ff;
+}
+
 .heading > .h1 {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
