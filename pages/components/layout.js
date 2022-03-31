@@ -27,7 +27,6 @@ export default function Layout(props) {
 
         <li className={styles.navbarItem}>Calendario</li>
         <li className={styles.navbarItem}>Annunci</li>
-        <li className={styles.navbarItem}>Meets</li>
         <li className={styles.navbarItem}>Orario</li>
       </ul>
     </div>
