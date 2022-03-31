@@ -21,7 +21,7 @@
   border-radius: 10px 10px 10px 10px;
 }
 
-.mainTitle{
+.mainTitle {
   font-size: 50px;
   text-align: center;
   background: linear-gradient(to left, #3366ff 32%, #00ff99 68%);
@@ -29,7 +29,7 @@
   color: transparent;
 }
 
-.mainSection{
+.mainSection {
   background-color: #9af3cf;
   float: left;
   width: 49.5vw; /* vw è un'unità di misura della larghezza della finestra, 50vw è il 50% */
@@ -37,11 +37,11 @@
   border: double #3366ff;
 }
 
-.mainSectionTitle{
+.mainSectionTitle {
   font-size: 22px;
 }
 
-.mainSectionPart{
+.mainSectionPart {
   border-bottom: 1px solid #3366ff;
 }
 
@@ -73,21 +73,21 @@
   background-color: rgb(30, 226, 233);
 }
 
-.heading > .navbar > .navbarItem:hover{
-background-color: rgb(12, 199, 206)
+.heading > .navbar > .navbarItem:hover {
+  background-color: rgb(12, 199, 206);
 }
 
-.navbarChildItem{
+.navbarChildItem {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 }
 
-.navbarItem:hover > .navbarChildItem{
+.navbarItem:hover > .navbarChildItem {
   display: block;
   position: relative;
 }
