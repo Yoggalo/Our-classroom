@@ -6,4 +6,4 @@ mettere la sidebar a scomparsa per gli utenti mobile
 
 <h3>Fixes</h3>
 
-migliorare estetica, è tutto storto, del link alla videolezione delle materie
+migliorare estetica, è tutto storto e si compenetra con robe, del link alla videolezione delle materie
