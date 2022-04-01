@@ -8,4 +8,3 @@ mettere la sidebar a scomparsa per gli utenti mobile
 
 modificare estetica layout in modo che l'icona di classroom sia di fianco al titolo e non sopra
 migliorare estetica, è tutto storto e si compenetra con robe, del link alla videolezione delle materie
-il content di materie si sovrappone alla sidebar
