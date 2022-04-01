@@ -4,4 +4,6 @@
 
 mettere la sidebar a scomparsa per gli utenti mobile
 
-<h3>Bug Fixes</h3>
+<h3>Fixes</h3>
+
+migliorare estetica, è tutto storto, del link alla videolezione delle materie

@@ -7,8 +7,10 @@ export default function Materia() {
     <main>
       <div className={styles.sidebar}>
         <div className={styles.sidebarElement}>
-          <h1>Accedi alla videolezione</h1>
-          <Image alt="Vercel logo" src={meet} width={100} height={100} /></div>
+          <h3>Accedi alla videolezione</h3>
+          <Image alt="Vercel logo" src={meet} width={100} height={100} />
+          <button>Link</button>
+          </div>
         <div className={styles.sidebarElement}>ciao</div>
         <div className={styles.sidebarElement}>belli</div>
         <div className={styles.sidebarElement}>come</div>
