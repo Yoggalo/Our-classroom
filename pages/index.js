@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Layout from "./components/layout";
 import Card from "./components/card";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         <div className={styles.mainSectionPart}>Annuncio 3</div>
       </div>
       <div className={styles.cardContainer}>
-      <Card title="Materie" text="tutti i materiali caricati dagli studenti"/>
+      <Link href="/materie/arte"><a><Card title="Materie" text="tutti i materiali caricati dagli studenti"/></a></Link>
       <Card title="Calendario" text="consulta il calendario degli eventi"/>
       <Card title="Annunci" text="tutte le novità"/>
       </div>
