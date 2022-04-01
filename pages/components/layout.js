@@ -1,16 +1,19 @@
 import styles from "../../styles/Home.module.css";
 import Image from "next/image";
-import Link from 'next/link'
-/*immagine non funge */
+import Link from "next/link";
+import logo from "../../public/index.png"
 
 /* aggiungere login/user */
-/*<Image width="100px" height="100px" src="" alt="non funge" />*/
 export default function Layout(props) {
   return (
     <div className={styles.heading}>
+      {/* sistemare Image qui sotto, per togliere il commento vanno 
+      anche eliminate le graffe che ha intorno */}
+      {/* <Image alt="OurClassroom Logo" src={logo} width={100} height={100} /> */}
       <h1 className={styles.h1}>{props.titolo}</h1>
       <ul className={styles.navbar}>
-        <ul className={styles.navbarItem}>Materiali
+        <ul className={styles.navbarItem}>
+          Materiali
           <li className={styles.navbarChildItem}>Arte</li>
           <li className={styles.navbarChildItem}>Divina Commedia</li>
           <li className={styles.navbarChildItem}>Filosofia</li>
