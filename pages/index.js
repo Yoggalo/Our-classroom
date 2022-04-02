@@ -26,7 +26,7 @@ export default function Home() {
         <div className={styles.mainSectionPart}>Annuncio 3</div>
       </div>
       <div className={styles.cardContainer}>
-      <Link href="/materie/arte"><a><Card title="Materie" text="tutti i materiali caricati dagli studenti"/></a></Link>
+      <Link href="/materie/materie-route"><a><Card title="Materie" text="tutti i materiali caricati dagli studenti"/></a></Link>
       <Card title="Calendario" text="consulta il calendario degli eventi"/>
       <Card title="Annunci" text="tutte le novità"/>
       </div>
