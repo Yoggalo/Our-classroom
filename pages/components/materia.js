@@ -17,9 +17,17 @@ export default function Materia() {
         <div className={styles.sidebarElement}>state</div>
       </div>
       <div className={styles.content}>
+      <div className={styles.contentElement}>
+          <h2 className={styles.contentElementTitle}>Titolo Materiale</h2>
+          <p className={styles.contentElementDescription}>Descrizione</p>
+        </div>
         <div className={styles.contentElement}>
-          <h2>Titolo Materiale</h2>
-          <p>Descrizione</p>
+          <h2 className={styles.contentElementTitle}>Titolo Materiale</h2>
+          <p className={styles.contentElementDescription}>Descrizione</p>
+        </div>
+        <div className={styles.contentElement}>
+          <h2 className={styles.contentElementTitle}>Titolo Materiale</h2>
+          <p className={styles.contentElementDescription}>Descrizione</p>
         </div>
       </div>
     </main>
