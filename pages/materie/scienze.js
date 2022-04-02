@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Layout titolo="Arte">
+      <Layout titolo="Scienze">
       </Layout>
       <Materia></Materia>
     </div>
