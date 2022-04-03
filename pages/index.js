@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <div className={styles.cardContainer}>
       <Link href="/materie/materie-route"><a><Card title="Materie" text="tutti i materiali caricati dagli studenti"/></a></Link>
-      <Card title="Calendario" text="consulta il calendario degli eventi"/>
+      <Link href="calendario" ><a><Card title="Calendario" text="consulta il calendario degli eventi"/></a></Link>
       <Card title="Annunci" text="tutte le novità"/>
       </div>
       <div className={styles.mainSection} style={{ width: "99.5vw" }}>
